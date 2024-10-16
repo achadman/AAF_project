@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.promo-bar {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.header {
+    background: linear-gradient(to right, #e0f7fa, #e0f7fa);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    margin-left: 20px;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.header .icons {
+    margin-right: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.header .icons i {
+    font-size: 20px;
+    color: #000;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.main-content .text {
+    max-width: 50%;
+}
+
+.main-content .text h1 {
+    font-size: 48px;
+    color: #000;
+    margin: 0;
+}
+
+.main-content .text p {
+    font-size: 18px;
+    color: #000;
+}
+
+.main-content .image {
+    max-width: 50%;
+}
+
+.main-content .image img {
+    width: 100%;
+}
+
+.whatsapp-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.whatsapp-chat i {
+    margin-right: 10px;
+}
